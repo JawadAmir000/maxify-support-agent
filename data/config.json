@@ -1,0 +1,6 @@
+{
+  "today": "2026-11-23",
+  "returnWindowDays": 30,
+  "autoRefundLimit": 150,
+  "defectRefundLimit": 60
+}

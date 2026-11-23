@@ -1,0 +1,22 @@
+Customer-Support Agent for an Apparel Company — Candidate Task (1 hour)
+ Build from scratch; do not reuse previous work. AI tools are allowed.
+ Share your whole screen and think aloud throughout; the session is recorded.
+ 
+Data: create fictional products (including some sale items), policies, customers and orders.
+
+Agent: it answers customer questions and handles returns, refunds and cancellations. It clarifies, or escalates to a human, when information is missing or an action is unsafe.
+
+Policies:
+ (a) returns within 30 days of delivery;
+ (b) sale items are exchange-only, except defective sale items, which can be refunded.
+ For anything this brief does not specify, decide, and record each decision in ASSUMPTIONS.md.
+Evals: repeatable, with explicit pass/fail criteria. You choose what to cover; we will judge your coverage against what can go wrong for a support agent that can issue refunds. Keep the output of every run, including failing runs, in eval_runs/.
+
+We will test your agent after you submit, with messages you have not seen, against your own data. So:
+it must run with one command documented in the README, taking a customer identity (customer ID or guest email) and a message, and printing the reply plus any action taken (refund, exchange, cancellation, escalation);
+it must keep state between calls, so a repeated request is recognised;
+there must be a documented way to make the order-lookup tool fail;
+any model API key is read from an environment variable. No credentials in the ZIP.
+Fix one failure: pick the worst failure in your eval_runs/, fix it, and add a test.
+Submit a ZIP to hiring@gomaxify.ai and                 recruitment_cn@gomaxify.ai
+        •                8.        within the hour: data, code, evals, eval_runs/, ASSUMPTIONS.md, README. In the body of the email, answer in your own words: (a) what was wrong in the failure you fixed, and why; (b) where in your code is a refund actually executed, and what stops the model from executing one your rules don’t allow?

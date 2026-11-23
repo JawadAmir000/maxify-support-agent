@@ -1,0 +1,10 @@
+[
+  { "sku": "P-TEE", "name": "Classic Cotton Tee", "price": 25, "on_sale": false, "sale_price": null, "sizes": ["S", "M", "L"], "stock": { "S": 12, "M": 20, "L": 8 } },
+  { "sku": "P-HOD", "name": "Fleece Hoodie", "price": 59, "on_sale": false, "sale_price": null, "sizes": ["S", "M", "L"], "stock": { "S": 4, "M": 6, "L": 3 } },
+  { "sku": "P-JNS", "name": "Slim Fit Jeans", "price": 79, "on_sale": false, "sale_price": null, "sizes": ["S", "M", "L"], "stock": { "S": 5, "M": 0, "L": 7 } },
+  { "sku": "P-JKT", "name": "Harbor Rain Jacket", "price": 120, "on_sale": false, "sale_price": null, "sizes": ["S", "M", "L"], "stock": { "S": 2, "M": 5, "L": 0 } },
+  { "sku": "P-COAT", "name": "Alpine Wool Coat", "price": 320, "on_sale": false, "sale_price": null, "sizes": ["S", "M", "L"], "stock": { "S": 1, "M": 2, "L": 1 } },
+  { "sku": "P-SNK", "name": "Canvas Sneakers", "price": 65, "on_sale": true, "sale_price": 45, "sizes": ["8", "9", "10"], "stock": { "8": 3, "9": 0, "10": 6 } },
+  { "sku": "P-DRS", "name": "Linen Summer Dress", "price": 90, "on_sale": true, "sale_price": 54, "sizes": ["S", "M", "L"], "stock": { "S": 5, "M": 2, "L": 0 } },
+  { "sku": "P-PRK", "name": "Summit Down Parka", "price": 240, "on_sale": true, "sale_price": 180, "sizes": ["S", "M", "L"], "stock": { "S": 2, "M": 1, "L": 2 } }
+]

@@ -1,0 +1,10 @@
+node_modules/
+state.json
+.env
+.env.*
+*.env
+.maxify.env
+.DS_Store
+CLAUDE.md
+.claude/
+*.tmp

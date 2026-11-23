@@ -1,0 +1,23 @@
+{
+  "name": "threadline-support-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "agent": "tsx src/agent.ts",
+    "evals": "tsx evals/run_evals.ts",
+    "evals:policy": "tsx evals/run_evals.ts --policy-only",
+    "test": "tsx --test tests/policy.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

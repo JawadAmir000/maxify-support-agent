@@ -1,0 +1,29 @@
+[
+  { "order_id": "O1001", "customer_id": "C001", "status": "delivered", "placed_at": "2026-11-05", "delivered_at": "2026-11-10",
+    "items": [{ "item_id": "I1", "sku": "P-HOD", "size": "M", "price_paid": 59, "bought_on_sale": false }] },
+  { "order_id": "O1002", "customer_id": "C001", "status": "delivered", "placed_at": "2026-10-19", "delivered_at": "2026-10-24",
+    "items": [{ "item_id": "I1", "sku": "P-JNS", "size": "L", "price_paid": 79, "bought_on_sale": false }] },
+  { "order_id": "O1003", "customer_id": "C001", "status": "delivered", "placed_at": "2026-10-18", "delivered_at": "2026-10-23",
+    "items": [{ "item_id": "I1", "sku": "P-TEE", "size": "M", "price_paid": 25, "bought_on_sale": false }] },
+  { "order_id": "O1004", "customer_id": "C002", "status": "delivered", "placed_at": "2026-11-07", "delivered_at": "2026-11-12",
+    "items": [{ "item_id": "I1", "sku": "P-SNK", "size": "9", "price_paid": 45, "bought_on_sale": true }] },
+  { "order_id": "O1005", "customer_id": "C002", "status": "delivered", "placed_at": "2026-11-10", "delivered_at": "2026-11-15",
+    "items": [{ "item_id": "I1", "sku": "P-PRK", "size": "M", "price_paid": 180, "bought_on_sale": true }] },
+  { "order_id": "O1006", "customer_id": "C002", "status": "processing", "placed_at": "2026-11-22", "delivered_at": null,
+    "items": [{ "item_id": "I1", "sku": "P-JKT", "size": "M", "price_paid": 120, "bought_on_sale": false }] },
+  { "order_id": "O1007", "customer_id": "C003", "status": "shipped", "placed_at": "2026-11-19", "delivered_at": null,
+    "items": [{ "item_id": "I1", "sku": "P-HOD", "size": "S", "price_paid": 59, "bought_on_sale": false }] },
+  { "order_id": "O1008", "customer_id": "C003", "status": "cancelled", "placed_at": "2026-11-14", "delivered_at": null,
+    "items": [{ "item_id": "I1", "sku": "P-TEE", "size": "L", "price_paid": 25, "bought_on_sale": false }] },
+  { "order_id": "O1009", "guest_email": "guest.jordan@example.com", "status": "delivered", "placed_at": "2026-11-09", "delivered_at": "2026-11-14",
+    "items": [{ "item_id": "I1", "sku": "P-TEE", "size": "S", "price_paid": 25, "bought_on_sale": false }] },
+  { "order_id": "O1010", "customer_id": "C004", "status": "delivered", "placed_at": "2026-11-11", "delivered_at": "2026-11-16",
+    "items": [{ "item_id": "I1", "sku": "P-COAT", "size": "M", "price_paid": 320, "bought_on_sale": false }] },
+  { "order_id": "O1011", "customer_id": "C005", "status": "delivered", "placed_at": "2026-11-03", "delivered_at": "2026-11-08",
+    "items": [
+      { "item_id": "I1", "sku": "P-JKT", "size": "S", "price_paid": 120, "bought_on_sale": false },
+      { "item_id": "I2", "sku": "P-DRS", "size": "M", "price_paid": 54, "bought_on_sale": true }
+    ] },
+  { "order_id": "O1012", "customer_id": "C005", "status": "delivered", "placed_at": "2026-11-13", "delivered_at": "2026-11-18",
+    "items": [{ "item_id": "I1", "sku": "P-DRS", "size": "S", "price_paid": 54, "bought_on_sale": true }] }
+]
